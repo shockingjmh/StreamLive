@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StreamLive</string>
+    <string name="title_activity_streaming">Streaming</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/accent_material_dark"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/InputIP"
+        android:hint="IP"
+        android:layout_below="@+id/IP"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/InputPort"
+        android:gravity="center"
+        android:hint="PORT"
+        android:layout_below="@+id/PORT"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="40dp" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="접속"
+        android:textColor="#ffffff"
+        android:layout_weight="0.14"
+        android:textSize="30dp" />
+
+</LinearLayout>
